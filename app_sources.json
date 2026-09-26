@@ -1,0 +1,28 @@
+{
+    "sources": {
+        "7-zip": {
+            "name": "7-Zip",
+            "category": "Utilities",
+            "compatibility": {
+                "windows": {
+                    "preferred": "installer",
+                    "editions": {
+                        "installer": {
+                            "url": "https://www.7-zip.org/a/7z2409-x64.exe",
+                            "default_filename": "7z2409-x64.exe"
+                        }
+                    }
+                },
+                "linux": {
+                    "preferred": "portable",
+                    "editions": {
+                        "portable": {
+                            "url": "https://github.com/ip7z/7zip/releases/download/24.09/7z2409-linux-x64.tar.xz",
+                            "default_filename": "7z2409-linux-x64.tar.xz"
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
