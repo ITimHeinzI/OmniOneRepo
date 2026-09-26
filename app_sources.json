@@ -3,6 +3,7 @@
         "7-zip": {
             "name": "7-Zip",
             "category": "Utilities",
+            "description": "Packprogramm mit hoher Kompressionsrate.",
             "compatibility": {
                 "windows": {
                     "preferred": "installer",
@@ -19,6 +20,131 @@
                         "portable": {
                             "url": "https://github.com/ip7z/7zip/releases/download/24.09/7z2409-linux-x64.tar.xz",
                             "default_filename": "7z2409-linux-x64.tar.xz"
+                        }
+                    }
+                }
+            }
+        },
+        "firefox": {
+            "name": "Mozilla Firefox",
+            "category": "Internet",
+            "description": "Freier, quelloffener Webbrowser.",
+            "compatibility": {
+                "windows": {
+                    "preferred": "installer",
+                    "editions": {
+                        "installer": {
+                            "url": "https://download.mozilla.org/?product=firefox-latest-ssl&os=win64&lang=de",
+                            "default_filename": "firefox_win_setup.exe"
+                        }
+                    }
+                },
+                "linux": {
+                    "preferred": "portable",
+                    "editions": {
+                        "portable": {
+                            "url": "https://download.mozilla.org/?product=firefox-latest-ssl&os=linux64&lang=de",
+                            "default_filename": "firefox_linux.tar.bz2"
+                        }
+                    }
+                }
+            }
+        },
+        "thunderbird": {
+            "name": "Mozilla Thunderbird",
+            "category": "Office",
+            "description": "Freies E-Mail- und Kalenderprogramm.",
+            "compatibility": {
+                "windows": {
+                    "preferred": "installer",
+                    "editions": {
+                        "installer": {
+                            "url": "https://download.mozilla.org/?product=thunderbird-latest-ssl&os=win64&lang=de",
+                            "default_filename": "thunderbird_win_setup.exe"
+                        }
+                    }
+                },
+                "linux": {
+                    "preferred": "portable",
+                    "editions": {
+                        "portable": {
+                            "url": "https://download.mozilla.org/?product=thunderbird-latest-ssl&os=linux64&lang=de",
+                            "default_filename": "thunderbird_linux.tar.bz2"
+                        }
+                    }
+                }
+            }
+        },
+        "keepassxc": {
+            "name": "KeePassXC",
+            "category": "Security",
+            "description": "Sicherer, lokaler Passwort-Manager.",
+            "compatibility": {
+                "windows": {
+                    "preferred": "portable",
+                    "editions": {
+                        "portable": {
+                            "url": "https://github.com/keepassxreboot/keepassxc/releases/download/2.7.9/KeePassXC-2.7.9-Win64-Portable.zip",
+                            "default_filename": "KeePassXC-Win64-Portable.zip"
+                        }
+                    }
+                },
+                "linux": {
+                    "preferred": "portable",
+                    "editions": {
+                        "portable": {
+                            "url": "https://github.com/keepassxreboot/keepassxc/releases/download/2.7.9/KeePassXC-2.7.9-x86_64.AppImage",
+                            "default_filename": "KeePassXC.AppImage"
+                        }
+                    }
+                }
+            }
+        },
+        "vscodium": {
+            "name": "VSCodium",
+            "category": "Development",
+            "description": "Telemetry-freie, quelloffene Variante von VS Code.",
+            "compatibility": {
+                "windows": {
+                    "preferred": "portable",
+                    "editions": {
+                        "portable": {
+                            "url": "https://github.com/VSCodium/vscodium/releases/download/1.93.1.24256/VSCodium-win32-x64-1.93.1.24256.zip",
+                            "default_filename": "VSCodium-win32-x64.zip"
+                        }
+                    }
+                },
+                "linux": {
+                    "preferred": "portable",
+                    "editions": {
+                        "portable": {
+                            "url": "https://github.com/VSCodium/vscodium/releases/download/1.93.1.24256/VSCodium-linux-x64-1.93.1.24256.tar.gz",
+                            "default_filename": "VSCodium-linux-x64.tar.gz"
+                        }
+                    }
+                }
+            }
+        },
+        "vlc": {
+            "name": "VLC Media Player",
+            "category": "Multimedia",
+            "description": "Vielseitiger Medienspieler für Audio und Video.",
+            "compatibility": {
+                "windows": {
+                    "preferred": "portable",
+                    "editions": {
+                        "portable": {
+                            "url": "https://get.videolan.org/vlc/3.0.21/win64/vlc-3.0.21-win64.zip",
+                            "default_filename": "vlc-win64.zip"
+                        }
+                    }
+                },
+                "linux": {
+                    "preferred": "portable",
+                    "editions": {
+                        "portable": {
+                            "url": "https://github.com/probonopd/VLC.AppImage/releases/download/continuous/VLC_media_player-git.3.0.11.1-x86_64.AppImage",
+                            "default_filename": "vlc.AppImage"
                         }
                     }
                 }
